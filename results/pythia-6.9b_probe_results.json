@@ -1,0 +1,182 @@
+[
+  {
+    "model": "Pythia-6.9B",
+    "setting": "AH-only",
+    "feature": "subject_hidden",
+    "n_examples": 1600,
+    "auroc_mean": 0.9126431702488687,
+    "auroc_std": 0.012389586590384732,
+    "aurocs_all_seeds": [
+      0.9133643240950227,
+      0.8957420107466063,
+      0.9323918269230769,
+      0.9173766261312216,
+      0.9043410633484162
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "AH-only",
+    "feature": "last_token_hidden",
+    "n_examples": 1600,
+    "auroc_mean": 0.9231900452488688,
+    "auroc_std": 0.012182549140623219,
+    "aurocs_all_seeds": [
+      0.9192678874434389,
+      0.9084152290723984,
+      0.9441547652714932,
+      0.9278139140271492,
+      0.9162984304298641
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "AH-only",
+    "feature": "attention",
+    "n_examples": 1600,
+    "auroc_mean": 0.8526159502262443,
+    "auroc_std": 0.01378061140818773,
+    "aurocs_all_seeds": [
+      0.8573953619909502,
+      0.8585265837104074,
+      0.8694145927601811,
+      0.8281073246606335,
+      0.8496358880090498
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "AH-only",
+    "feature": "token_probability",
+    "n_examples": 1600,
+    "auroc_mean": 0.624370757918552,
+    "auroc_std": 0.010585315533546667,
+    "aurocs_all_seeds": [
+      0.64453125,
+      0.6201569570135748,
+      0.6236036481900453,
+      0.619962528280543,
+      0.6135994061085972
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "AH-only",
+    "feature": "verbalized_confidence",
+    "n_examples": 1430,
+    "auroc_mean": 0.499392575928009,
+    "auroc_std": 0.002294393325601167,
+    "aurocs_all_seeds": [
+      0.5028571428571429,
+      0.49803149606299213,
+      0.4989426321709787,
+      0.4962317210348706,
+      0.5008998875140608
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "AH-only",
+    "feature": "subject_popularity",
+    "n_examples": 1600,
+    "auroc_mean": 0.5071496747737556,
+    "auroc_std": 0.011327063023333812,
+    "aurocs_all_seeds": [
+      0.49346012443438914,
+      0.5215815893665159,
+      0.5096153846153846,
+      0.5163762019230769,
+      0.4947150735294118
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "UH-only",
+    "feature": "subject_hidden",
+    "n_examples": 2394,
+    "auroc_mean": 0.8512927141351799,
+    "auroc_std": 0.011324098933213412,
+    "aurocs_all_seeds": [
+      0.8572275327412313,
+      0.8456222715640525,
+      0.8320600632244467,
+      0.8573122083396056,
+      0.8642414948065634
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "UH-only",
+    "feature": "last_token_hidden",
+    "n_examples": 2394,
+    "auroc_mean": 0.892415888905615,
+    "auroc_std": 0.007095747780196087,
+    "aurocs_all_seeds": [
+      0.9010142255005269,
+      0.8897241457172963,
+      0.8891314165286768,
+      0.8822632846605449,
+      0.8999463721210297
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "UH-only",
+    "feature": "attention",
+    "n_examples": 2394,
+    "auroc_mean": 0.7807428872497365,
+    "auroc_std": 0.015661555467496143,
+    "aurocs_all_seeds": [
+      0.7795894174318831,
+      0.803242134577751,
+      0.7572821014601836,
+      0.7909171308143912,
+      0.7726836519644739
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "UH-only",
+    "feature": "token_probability",
+    "n_examples": 2394,
+    "auroc_mean": 0.6354150986000301,
+    "auroc_std": 0.011589784584689473,
+    "aurocs_all_seeds": [
+      0.6444659792262533,
+      0.6438638416378142,
+      0.6136440614180341,
+      0.6417469516784585,
+      0.6333546590395904
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "UH-only",
+    "feature": "verbalized_confidence",
+    "n_examples": 2208,
+    "auroc_mean": 0.49885714285714283,
+    "auroc_std": 0.0006760852771559693,
+    "aurocs_all_seeds": [
+      0.5,
+      0.4989754098360656,
+      0.4981674473067916,
+      0.4989754098360656,
+      0.4981674473067916
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "UH-only",
+    "feature": "subject_popularity",
+    "n_examples": 2394,
+    "auroc_mean": 0.5611527171458679,
+    "auroc_std": 0.020137570620141373,
+    "aurocs_all_seeds": [
+      0.5297070224296252,
+      0.5540559611621255,
+      0.5765937829293993,
+      0.5571607331025139,
+      0.5882460861056752
+    ]
+  }
+]

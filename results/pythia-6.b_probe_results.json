@@ -1,0 +1,212 @@
+[
+  {
+    "model": "Pythia-6.9B",
+    "setting": "AH-only",
+    "feature": "subject_hidden",
+    "n_examples": 1600,
+    "auroc_mean": 0.9126396351809953,
+    "auroc_std": 0.012394410004490588,
+    "aurocs_all_seeds": [
+      0.9133643240950227,
+      0.8957243354072398,
+      0.9323918269230769,
+      0.9173766261312216,
+      0.9043410633484162
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "AH-only",
+    "feature": "last_token_hidden",
+    "n_examples": 1600,
+    "auroc_mean": 0.9233120050904977,
+    "auroc_std": 0.012241561063365346,
+    "aurocs_all_seeds": [
+      0.919232536764706,
+      0.9081854496606335,
+      0.9442873303167421,
+      0.9280083427601811,
+      0.9168463659502262
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "AH-only",
+    "feature": "attention",
+    "n_examples": 1600,
+    "auroc_mean": 0.8526159502262443,
+    "auroc_std": 0.01378061140818773,
+    "aurocs_all_seeds": [
+      0.8573953619909502,
+      0.8585265837104074,
+      0.8694145927601811,
+      0.8281073246606335,
+      0.8496358880090498
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "AH-only",
+    "feature": "token_probability",
+    "n_examples": 1600,
+    "auroc_mean": 0.624370757918552,
+    "auroc_std": 0.010585315533546667,
+    "aurocs_all_seeds": [
+      0.64453125,
+      0.6201569570135748,
+      0.6236036481900453,
+      0.619962528280543,
+      0.6135994061085972
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "AH-only",
+    "feature": "verbalized_confidence",
+    "n_examples": 1430,
+    "auroc_mean": 0.499392575928009,
+    "auroc_std": 0.002294393325601167,
+    "aurocs_all_seeds": [
+      0.5028571428571429,
+      0.49803149606299213,
+      0.4989426321709787,
+      0.4962317210348706,
+      0.5008998875140608
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "AH-only",
+    "feature": "cot_confidence",
+    "n_examples": 116,
+    "auroc_mean": 0.5503401360544219,
+    "auroc_std": 0.06532560650390086,
+    "aurocs_all_seeds": [
+      0.5527210884353742,
+      0.5306122448979592,
+      0.5527210884353742,
+      0.45578231292517013,
+      0.6598639455782311
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "AH-only",
+    "feature": "subject_popularity",
+    "n_examples": 1600,
+    "auroc_mean": 0.5071496747737556,
+    "auroc_std": 0.011327063023333812,
+    "aurocs_all_seeds": [
+      0.49346012443438914,
+      0.5215815893665159,
+      0.5096153846153846,
+      0.5163762019230769,
+      0.4947150735294118
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "UH-only",
+    "feature": "subject_hidden",
+    "n_examples": 2394,
+    "auroc_mean": 0.8513444603341863,
+    "auroc_std": 0.010595558674344608,
+    "aurocs_all_seeds": [
+      0.8570911109438507,
+      0.8439758015956647,
+      0.8346050353755833,
+      0.8569735059461087,
+      0.8640768478097246
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "UH-only",
+    "feature": "last_token_hidden",
+    "n_examples": 2394,
+    "auroc_mean": 0.8926200511816951,
+    "auroc_std": 0.006879074013608955,
+    "aurocs_all_seeds": [
+      0.9009954087008881,
+      0.8899311305133223,
+      0.8892066837272318,
+      0.8829689146469969,
+      0.8999981183200362
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "UH-only",
+    "feature": "attention",
+    "n_examples": 2394,
+    "auroc_mean": 0.7807428872497365,
+    "auroc_std": 0.015661555467496143,
+    "aurocs_all_seeds": [
+      0.7795894174318831,
+      0.803242134577751,
+      0.7572821014601836,
+      0.7909171308143912,
+      0.7726836519644739
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "UH-only",
+    "feature": "token_probability",
+    "n_examples": 2394,
+    "auroc_mean": 0.6354150986000301,
+    "auroc_std": 0.011589784584689473,
+    "aurocs_all_seeds": [
+      0.6444659792262533,
+      0.6438638416378142,
+      0.6136440614180341,
+      0.6417469516784585,
+      0.6333546590395904
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "UH-only",
+    "feature": "verbalized_confidence",
+    "n_examples": 2208,
+    "auroc_mean": 0.49885714285714283,
+    "auroc_std": 0.0006760852771559693,
+    "aurocs_all_seeds": [
+      0.5,
+      0.4989754098360656,
+      0.4981674473067916,
+      0.4989754098360656,
+      0.4981674473067916
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "UH-only",
+    "feature": "cot_confidence",
+    "n_examples": 111,
+    "auroc_mean": 0.5664285714285714,
+    "auroc_std": 0.05609985630597482,
+    "aurocs_all_seeds": [
+      0.5892857142857143,
+      0.6160714285714286,
+      0.6178571428571429,
+      0.46964285714285714,
+      0.5392857142857143
+    ]
+  },
+  {
+    "model": "Pythia-6.9B",
+    "setting": "UH-only",
+    "feature": "subject_popularity",
+    "n_examples": 2394,
+    "auroc_mean": 0.5611527171458679,
+    "auroc_std": 0.020137570620141373,
+    "aurocs_all_seeds": [
+      0.5297070224296252,
+      0.5540559611621255,
+      0.5765937829293993,
+      0.5571607331025139,
+      0.5882460861056752
+    ]
+  }
+]

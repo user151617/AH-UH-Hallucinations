@@ -1,0 +1,116 @@
+{
+  "Pythia-410M": {
+    "ece": 0.8355454839753966,
+    "n": 3089,
+    "bins": [
+      {
+        "range": "0.0-0.1",
+        "n": 23,
+        "avg_confidence": 0.0,
+        "actual_accuracy": 0.087
+      },
+      {
+        "range": "0.9-1.0",
+        "n": 3066,
+        "avg_confidence": 1.0,
+        "actual_accuracy": 0.159
+      }
+    ]
+  },
+  "Pythia-1.4B": {
+    "ece": 0.72083197920052,
+    "n": 3077,
+    "bins": [
+      {
+        "range": "0.0-0.1",
+        "n": 379,
+        "avg_confidence": 0.0,
+        "actual_accuracy": 0.119
+      },
+      {
+        "range": "0.9-1.0",
+        "n": 2698,
+        "avg_confidence": 1.0,
+        "actual_accuracy": 0.195
+      }
+    ]
+  },
+  "Pythia-2.8B": {
+    "ece": 0.19537993920972646,
+    "n": 3290,
+    "bins": [
+      {
+        "range": "0.0-0.1",
+        "n": 3279,
+        "avg_confidence": 0.0,
+        "actual_accuracy": 0.193
+      },
+      {
+        "range": "0.8-0.9",
+        "n": 11,
+        "avg_confidence": 0.8,
+        "actual_accuracy": 0.0
+      }
+    ]
+  },
+  "Pythia-6.9B": {
+    "ece": 0.1909034369885434,
+    "n": 3055,
+    "bins": [
+      {
+        "range": "0.0-0.1",
+        "n": 3048,
+        "avg_confidence": 0.0,
+        "actual_accuracy": 0.191
+      },
+      {
+        "range": "0.2-0.3",
+        "n": 1,
+        "avg_confidence": 0.22,
+        "actual_accuracy": 0.0
+      },
+      {
+        "range": "0.5-0.6",
+        "n": 4,
+        "avg_confidence": 0.5,
+        "actual_accuracy": 0.5
+      },
+      {
+        "range": "0.9-1.0",
+        "n": 2,
+        "avg_confidence": 1.0,
+        "actual_accuracy": 0.0
+      }
+    ]
+  },
+  "Qwen2.5-1.5B": {
+    "ece": 0.32432596182974854,
+    "n": 3301,
+    "bins": [
+      {
+        "range": "0.0-0.1",
+        "n": 2435,
+        "avg_confidence": 0.0,
+        "actual_accuracy": 0.234
+      },
+      {
+        "range": "0.6-0.7",
+        "n": 12,
+        "avg_confidence": 0.7,
+        "actual_accuracy": 0.417
+      },
+      {
+        "range": "0.8-0.9",
+        "n": 788,
+        "avg_confidence": 0.8,
+        "actual_accuracy": 0.231
+      },
+      {
+        "range": "0.9-1.0",
+        "n": 66,
+        "avg_confidence": 0.967,
+        "actual_accuracy": 0.242
+      }
+    ]
+  }
+}
